@@ -31,5 +31,6 @@ export default function Page() {
                 © {new Date().getFullYear()} {profile.name}
             </footer>
             <SpeedInsights />
+        </div>
     );
 }
