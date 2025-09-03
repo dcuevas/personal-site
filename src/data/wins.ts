@@ -11,4 +11,6 @@ export const wins = [
         impact: "Reduced production bugs by 40% in one year.",
         tags: ["Quality", "Delivery"],
     },
-];
+]as const;
+
+export type Win = (typeof wins)[number];
