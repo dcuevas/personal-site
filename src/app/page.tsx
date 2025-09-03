@@ -30,7 +30,7 @@ export default function Page() {
             <footer className="row-start-3 mt-12 text-sm text-zinc-500">
                 © {new Date().getFullYear()} {profile.name}
             </footer>
-            <SpeedInsights />
+            <SpeedInsights /> # Vercel stats
         </div>
     );
 }
