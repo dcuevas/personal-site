@@ -4,6 +4,8 @@ import Impact from "@/components/sections/Impact";
 import Contact from "@/components/sections/Contact";
 import { profile } from "@/data/profile";
 import { wins } from "@/data/wins";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 
 export default function Page() {
     return (
@@ -28,6 +30,7 @@ export default function Page() {
             <footer className="row-start-3 mt-12 text-sm text-zinc-500">
                 © {new Date().getFullYear()} {profile.name}
             </footer>
+            <SpeedInsights />
         </div>
     );
 }
