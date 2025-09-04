@@ -8,7 +8,7 @@ export const profile = {
         github: "https://github.com/dcuevas",
         email: "mailto:dario.cuevas@gmail.com",
     },
-    avatarSrc: "/avatar.png",
+    avatarSrc: "TintinStyleHeadShot.jpg",
     avatarFallback: "DC",
 } as const;
 
