@@ -25,7 +25,7 @@ export default function Page() {
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground leading-relaxed">
-                            I'm an Engineering Leader focused on building resilient teams with strong
+                            I&#39;m an Engineering Leader focused on building resilient teams with strong
                             engineering standards and a culture of quality. I move comfortably between
                             strategy and delivery: translating business goals into executable roadmaps and
                             developing people so they can shine.
